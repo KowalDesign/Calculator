@@ -1,0 +1,61 @@
+
+body{
+    margin: 0; 
+}
+
+#name{
+    background-color: black;
+}
+
+span{
+   color: #ff4d05;
+
+}
+table{
+    width: 100%;
+    height: 70vh;
+    color: white;
+    background-color: rgb(50, 50, 50);
+}
+td {    
+    width: 25%;
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Poppins', sans-serif, 'Ubuntu', sans-serif, 'Alkatra';
+    font-weight: 700;
+    background-color: black;
+}
+
+td:hover{
+    background-color: #146C94;
+    cursor: pointer;
+}
+
+#result {
+    height: 30vh;
+    background-color: #146C94;
+    font-weight: 800;
+    color: white;
+    font-size: 64px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.letters{
+    background-color: black;
+}
+
+.letters:hover{
+    background-color: #146C94;
+}
+
+#equal{
+    background-color: black;
+}
+
+#equal:hover{
+    background-color: #146C94;
+}

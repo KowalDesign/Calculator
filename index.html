@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    
+    <title>Taschenrechner Simple - Karol Kowalczyk</title>
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    
+    <!-- Javascript -->
+    <script type="text/javascript" src="js/script.js"></script>
+    
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <div id="result"> 
+    </div>
+
+    <table>
+        <tr>
+            <td id="name">Ko<span>w</span>al<span>.</span>Desig<span>n</span></td>
+            <td></td>
+            <td></td>
+            <td onclick="deleteLast()">DEL</td>
+        </tr>
+        <tr>
+            <td onclick="appendOperation(7)">7</td>
+            <td onclick="appendOperation(8)">8</td> 
+            <td onclick="appendOperation(9)">9</td>
+            <td onclick="appendOperation(' / ')"class="letters">/</td>
+        </tr>
+
+        <tr>
+            <td onclick="appendOperation(4)">4</td>
+            <td onclick="appendOperation(5)">5</td>
+            <td onclick="appendOperation(6)">6</td>
+            <td onclick="appendOperation(' * ')" class="letters">x</td>
+        </tr>
+
+        <tr>
+            <td onclick="appendOperation(1)">1</td>
+            <td onclick="appendOperation(2)">2</td>
+            <td onclick="appendOperation(3)">3</td>
+            <td onclick="appendOperation(' + ')" class="letters">+</td>
+        </tr>
+
+        <tr>
+            <td onclick="appendOperation(0)">0</td>
+            <td onclick="appendOperation('.')">,</td>
+            <td onclick="calculatResult()" id="equal">=</td>
+            <td onclick="appendOperation(' - ')"class="letters">-</td>
+        </tr>
+    </table>
+</body>
+</html> 
